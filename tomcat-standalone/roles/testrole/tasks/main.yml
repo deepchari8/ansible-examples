@@ -1,5 +1,5 @@
 ---
-- name: Deploy HelloWorld to Tomcat
+- name: Deploy HelloWorld to Tomcat 123
   copy:
     src: jboss-helloworld.war
     dest: /opt/apache-tomcat-7.0.61/webapps/jboss-helloworld.war
